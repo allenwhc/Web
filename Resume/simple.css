@@ -1,0 +1,38 @@
+body{
+	background-color: cyan;
+}
+
+title1{
+	font-family: "Consolas", Consolas, monospace; 
+	font-size: 18px;
+	font-weight: bold;
+}
+
+h1{
+	font-family: "Consolas", Consolas, monospace; 
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h2{
+	font-family: "Consolas", Consolas, monospace; 
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p{
+	font-family: "Consolas", Consolas, monospace;
+	font-size: 15px;
+}
+
+p1{
+	font-family: "Consolas", Consolas, monospace;
+	font-size: 15px;
+	font-style: italic;
+}
+
+p2{
+	margin-left: 20px;
+	font-family: "Consolas", Consolas, monospace;
+	font-size: 15px;
+}
