@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>中国古代历史</title>
+<body>
+
+	<link rel="stylesheet" type="text/css" href="FP.css">
+	<h3 class="example1">历史是一面镜子，也是一本深刻的教科书</h3>
+	<div>
+		<button onclick="myFunction()" class="dropbtn">选择不同朝代</button>
+		<div id="dynasties" class="dropdown-content">
+			<a href="ancient.html">史前时期</a>
+			<a href="prior_qin.html">先秦时期</a>
+			<a href="qin.html">秦朝</a>
+			<a href="han/han.html">汉朝</a>
+			<a href="weijin.html">魏晋南北朝</a>
+			<a href="sui.html">隋朝</a>
+			<a href="tang/tang.html">唐朝</a>
+			<a href="song.html">宋辽金西夏</a>
+			<a href="yuan.html">元朝</a>
+			<a href="ming.html">明朝</a>
+			<a href="qing.html">清朝</a>
+		</div>
+	</div>
+	<script>
+		function myFunction() {
+			document.getElementById("dynasties").classList.toggle("show");
+		}
+		window.onclick=function(event){
+			if(!event.target.mathces('.dropbtn')){
+				var dropdowns=document.getElementsByClassName("dropdown-content");
+				var i;
+				for(i=0; i<dropdowns.length; i++){
+					var openDropdowns=dropdowns[i];
+					if(openDropdowns.classList.contains('show'))
+						openDropdowns.classList.remove('show');
+				}
+			}
+		}
+	</script>
+</body>	
+</head>
+
+</html>
