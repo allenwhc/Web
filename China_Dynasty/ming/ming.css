@@ -1,3 +1,7 @@
+table,th,td{
+	border: 1px solid black;
+}
+
 .buttonType{
 	background-color: green;
 	color: white;
